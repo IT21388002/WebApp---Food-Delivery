@@ -21,3 +21,13 @@ a{
   width: 80%;
   margin: auto;
 }
+
+/* Smooth animation for Header section */
+@keyframes fadeIn{
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+}
