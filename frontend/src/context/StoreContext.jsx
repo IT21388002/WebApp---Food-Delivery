@@ -26,7 +26,6 @@ const StoreContextProvider = (props) =>{
         cartItems,
         setCartItems,
         addToCart,
-        removeFromCart
     }
 
     return(
