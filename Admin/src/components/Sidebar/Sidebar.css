@@ -1,10 +1,13 @@
-.sidebar{
+.sidebar {
     width: 18%;
-    height: 100vh;
+    min-height: 100vh; /* Ensures it covers at least the viewport height */
+    height: auto; /* Allows it to expand if needed */
     border: 1.5px solid #a9a9a9;
     border-top: 0;
     font-size: max(1vw, 10px);
+    overflow-y: auto; /* Enables scrolling when content overflows */
 }
+
 
 .sidebar-options{
     padding-top: 50px;
